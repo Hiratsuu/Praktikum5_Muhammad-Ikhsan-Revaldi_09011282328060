@@ -121,4 +121,37 @@ B. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) d
 
 >![Gambar 5-B](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/5-B.png?raw=true)
 
+C. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background  
+
+>$ fg %1  
+>$ bg
+>![Gambar 5-C](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/5-C.png?raw=true)
+
+D. Stop program background dengan utilitas kil  
+
+>$ ps x  
+>$ kill [Nomor PID]
+>![Gambar 5-D](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/5-D.png?raw=true)
+
+### 6. History
+A. Ganti nilai HISTSIZE dari 1000 menjadi 20  
+
+>$ HISTSIZE=20  
+>$ h
+>![Gambar 6-A](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/6-A.png?raw=true)
+
+B. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan  
+
+>$ !-5  
+>![Gambar 6-B](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/6-B.png?raw=true)
+
+C. Ulangi instruksi yang terakhir.  Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer  
+
+>$ !!
+>![Gambar 6-C](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/6-C.png?raw=true)
+
+D. Ulangi instruksi pada history bufer nomor 150  
+
+>$ !150
+> 
 
