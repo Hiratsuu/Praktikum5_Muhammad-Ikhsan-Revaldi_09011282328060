@@ -1,4 +1,4 @@
-### Nama: Muhammad Ikhsan Revaldi
+![image](https://github.com/user-attachments/assets/8f0c4088-3afc-4e5a-a84b-ab21f352bbdf)### Nama: Muhammad Ikhsan Revaldi
 ### NIM: 09011282328060
 ### Kelas : SK3C
 
@@ -8,9 +8,13 @@ A. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut :
 >![Gambar 1-A-1](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-A-1.png?raw=true)
 
 B. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu :  
+
 >/home/stD02001/.bash_profile ![Gambar 1-B](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-B.png?raw=true)
+
 >/home/. stD02001/.bash_login ![Gambar 1-B-2](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-B-2.png?raw=true)
+
 >/home/mahasiswa/.profile  ![Gambar 1-B-1](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-B-1.png?raw=true)
+
 >/home/mahasiswa/.bashrc  ![Gambar 1-B-3](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-B-3.png?raw=true)
 
 Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap file tersebut, cantumkan instruksi echo. 
@@ -59,4 +63,41 @@ Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum ekseku
 >Sleep 5  
 >clear
 >![Gambar 3](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/3-_-1.png?raw=true)
->
+
+Menampilkan pesan yang berdurasi 5 detik dari script yang sudah kita buat pada ".bash_logout" yang mana nanti ketika kita menginput command "exit" akan keluar pesan seperti berikut selama 5 detik lalu script tersebut akan melakukan clear pada terminal kita.
+
+>![Gambar 3](https://github.com/user-attachments/assets/13ed8cf3-2c58-4e3a-896f-fdff31cc162c)
+
+### 4. Bash script  
+A. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :  
+>p1.sh  
+>#! /bin/bash  
+>echo “Program p1”  
+>ls –l
+>![Gambar 4-A](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/4-A.png?raw=true)
+
+>p2.sh  
+>#! /bin/bash  
+>echo “Program p2”  
+>who  
+>![Gambar 4-A-1](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/4-A-1.png?raw=true)
+
+>p3.sh  
+>#! /bin/bash  
+>echo “Program p3”
+>ps x
+>![Gambar 4-A-2](https://github.com/user-attachments/assets/451949e6-4d7d-4c2c-be69-e61173e8f1e6)
+
+B. Jalankan script tersebut sebagai berikut :  
+
+>$  ./p1.sh ; ./p3.sh ; ./p2.sh
+>![Gambar 4-B](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/4-B.png?raw=true)
+
+>$  ./p1.sh &
+>![Gambar 4-B-1](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/4-B-1.png?raw=true)
+
+>$  ./p1.sh $ ./p2.sh & ./p3.sh &
+>![Gambar 4-B-2](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/4-B-2.png?raw=true)
+
+>$  ( ./p1.sh ; ./p3.sh ) &
+>![Gambar 4-B-3](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/4-B-3.png?raw=true)
