@@ -119,4 +119,6 @@ B. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) d
 >$ find / -print > files 2>/dev/null &  
 >$ jobs
 
->
+>![Gambar 5-B](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/5-B.png?raw=true)
+
+
