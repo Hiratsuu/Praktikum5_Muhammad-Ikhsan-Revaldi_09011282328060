@@ -111,4 +111,12 @@ A. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik,
 >sleep 10  
 >done
 
+>![Gambar 5-A](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/5-A.png?raw=true)
+
+B. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background sebagai berikut :
+
+>$ jobs  
+>$ find / -print > files 2>/dev/null &  
+>$ jobs
+
 >
