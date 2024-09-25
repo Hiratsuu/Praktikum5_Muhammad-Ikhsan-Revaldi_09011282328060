@@ -153,5 +153,9 @@ C. Ulangi instruksi yang terakhir.  Gunakan juga ^P dan ^N untuk bernavigasi pad
 D. Ulangi instruksi pada history bufer nomor 150  
 
 >$ !150
-> 
+> ![Gambar 6-D](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/6-E.png?raw=true)
 
+E. Ulangi instruksi dengan prefix “ls”  
+
+>$ !ls
+>![Gambar 6-E](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/6-D.png?raw=true)
