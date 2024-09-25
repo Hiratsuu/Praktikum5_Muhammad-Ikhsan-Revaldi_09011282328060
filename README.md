@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8f0c4088-3afc-4e5a-a84b-ab21f352bbdf)### Nama: Muhammad Ikhsan Revaldi
+### Nama: Muhammad Ikhsan Revaldi
 ### NIM: 09011282328060
 ### Kelas : SK3C
 
@@ -8,7 +8,6 @@ A. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut :
 >![Gambar 1-A-1](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-A-1.png?raw=true)
 
 B. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu :  
-
 >/home/stD02001/.bash_profile ![Gambar 1-B](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-B.png?raw=true)
 
 >/home/. stD02001/.bash_login ![Gambar 1-B-2](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/1-B-2.png?raw=true)
@@ -101,3 +100,15 @@ B. Jalankan script tersebut sebagai berikut :
 
 >$  ( ./p1.sh ; ./p3.sh ) &
 >![Gambar 4-B-3](https://github.com/Hiratsuu/Praktikum5_Muhammad-Ikhsan-Revaldi_09011282328060/blob/main/Praktikum%205/4-B-3.png?raw=true)
+
+### 5. Jobs  
+A. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.  
+
+>#!/bin/bash  
+>while [ true ]  
+>do  
+>date >> hasil  
+>sleep 10  
+>done
+
+>
